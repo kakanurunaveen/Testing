@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45975" started-at="2018-06-07T10:03:49Z" finished-at="2018-06-07T10:04:35Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="18055" started-at="2018-06-07T10:03:49Z" finished-at="2018-06-07T10:04:07Z">
+      <class name="pages.srs.TestExecution">
+        <test-method status="PASS" signature="verify_launch(java.lang.String, java.lang.String)[pri:0, instance:pages.srs.TestExecution@50d0686]" name="verify_launch" is-config="true" duration-ms="12032" started-at="2018-06-07T10:03:49Z" finished-at="2018-06-07T10:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://srssprojects.in/home.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_launch -->
+        <test-method status="PASS" signature="verify_login()[pri:0, instance:pages.srs.TestExecution@50d0686]" name="verify_login" duration-ms="5960" started-at="2018-06-07T10:04:01Z" finished-at="2018-06-07T10:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="verify_close()[pri:0, instance:pages.srs.TestExecution@50d0686]" name="verify_close" is-config="true" duration-ms="38" started-at="2018-06-07T10:04:07Z" finished-at="2018-06-07T10:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_close -->
+      </class> <!-- pages.srs.TestExecution -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="27861" started-at="2018-06-07T10:04:07Z" finished-at="2018-06-07T10:04:35Z">
+      <class name="pages.srs.TestExecution">
+        <test-method status="PASS" signature="verify_launch(java.lang.String, java.lang.String)[pri:0, instance:pages.srs.TestExecution@43bd930a]" name="verify_launch" is-config="true" duration-ms="9014" started-at="2018-06-07T10:04:07Z" finished-at="2018-06-07T10:04:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://srssprojects.in/home.aspx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_launch -->
+        <test-method status="PASS" signature="verify_login()[pri:0, instance:pages.srs.TestExecution@43bd930a]" name="verify_login" duration-ms="3308" started-at="2018-06-07T10:04:16Z" finished-at="2018-06-07T10:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="verfity_homepage()[pri:1, instance:pages.srs.TestExecution@43bd930a]" name="verfity_homepage" duration-ms="807" started-at="2018-06-07T10:04:20Z" finished-at="2018-06-07T10:04:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfity_homepage -->
+        <test-method status="PASS" signature="branchcreation()[pri:2, instance:pages.srs.TestExecution@43bd930a]" name="branchcreation" duration-ms="14526" started-at="2018-06-07T10:04:21Z" finished-at="2018-06-07T10:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchcreation -->
+        <test-method status="PASS" signature="verify_close()[pri:0, instance:pages.srs.TestExecution@43bd930a]" name="verify_close" is-config="true" duration-ms="193" started-at="2018-06-07T10:04:35Z" finished-at="2018-06-07T10:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_close -->
+      </class> <!-- pages.srs.TestExecution -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
